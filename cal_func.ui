@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cal_func</class>
+ <widget class="QMainWindow" name="cal_func">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>619</width>
+    <height>605</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_7">
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>一元一次函数：f(x)=ax+b_</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>a:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_16">
+         <property name="text">
+          <string>b:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_17">
+         <property name="text">
+          <string>x:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="label_18">
+         <property name="text">
+          <string>f(x)：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLineEdit" name="a_11"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="b_11"/>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="x_11"/>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLineEdit" name="f_11"/>
+       </item>
+       <item row="1" column="4">
+        <widget class="QPushButton" name="cal_11">
+         <property name="text">
+          <string>计算</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QGroupBox" name="Groupbox">
+      <property name="title">
+       <string>一元二次函数:f(x)=ax^2+bx+c</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>a:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>b:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_12">
+         <property name="text">
+          <string>c:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>x:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>f(x):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLineEdit" name="a_12"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="b_12"/>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="c_12"/>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLineEdit" name="x_12"/>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLineEdit" name="f_12"/>
+       </item>
+       <item row="1" column="5">
+        <widget class="QPushButton" name="cal_12">
+         <property name="text">
+          <string>计算</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="title">
+       <string>反比例函数:f(x)=a/x</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>a:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>x:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>f(x):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLineEdit" name="a_inverse"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="x_inverse"/>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="f_inverse"/>
+       </item>
+       <item row="1" column="3">
+        <widget class="QPushButton" name="cal_inverse">
+         <property name="text">
+          <string>计算</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QGroupBox" name="groupbox">
+      <property name="title">
+       <string>指数函数：f(x)=a^x</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>a:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>x:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>f(x)：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLineEdit" name="a_index"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="x_index"/>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="f_index"/>
+       </item>
+       <item row="1" column="3">
+        <widget class="QPushButton" name="cal_index">
+         <property name="text">
+          <string>计算</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="title">
+       <string>对数函数：f(x)=loga（x）</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>a:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>x:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>f(x)：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLineEdit" name="a_log"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="x_log"/>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="f_log"/>
+       </item>
+       <item row="1" column="3">
+        <widget class="QPushButton" name="cal_log">
+         <property name="text">
+          <string>计算</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="base_cal">
+         <property name="text">
+          <string>基础计算器</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="trans">
+         <property name="text">
+          <string>进制计算器</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>619</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
